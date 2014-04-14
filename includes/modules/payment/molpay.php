@@ -59,8 +59,12 @@
             $returnurl = return_url(basename(__FILE__, '.php'));
             $vcode     = md5($amount.$account.$orderid.$verifyk);
 
-            $def_url="<a href=https://www.onlinepayment.com.my/MOLPay/pay/".$account."/?amount=".$amount."&orderid=".$orderid."&bill_name=".$bill_name."&bill_email=".$bill_email."&bill_mobile=".$bill_mobile."&bill_desc=".$bill_desc."&vcode=".$vcode."&returnurl=".$returnurl."&currency=".$cur."><img src='http://molpay.com/home/pic/molpay/molpayhor01_V2.gif' alt='MOLPay Online Payment Gateway' title='MOLPay Online Payment Gateway' border=0></a>";
-
+            if($cur==SGD) {
+                $def_url="<a href=https://www.onlinepayment.com.my/MOLPay/pay/".$account."/?amount=".$amount."&orderid=".$orderid."&bill_name=".$bill_name."&bill_email=".$bill_email."&bill_mobile=".$bill_mobile."&bill_desc=".$bill_desc."&vcode=".$vcode."&returnurl=".$returnurl."&currency=".$cur."><img src='http://molpay.com/home/pic/molpay/molpayhor_sgchannel_v1.gif' alt='MOLPay Online Payment Gateway(Singapore)' title='MOLPay Online Payment Gateway(Singapore)' border=0></a>";
+            }else{
+                $def_url="<a href=https://www.onlinepayment.com.my/MOLPay/pay/".$account."/?amount=".$amount."&orderid=".$orderid."&bill_name=".$bill_name."&bill_email=".$bill_email."&bill_mobile=".$bill_mobile."&bill_desc=".$bill_desc."&vcode=".$vcode."&returnurl=".$returnurl."&currency=".$cur."><img src='http://molpay.com/home/pic/molpay/molpayhor01_V2.gif' alt='MOLPay Online Payment Gateway' title='MOLPay Online Payment Gateway' border=0></a>";
+            }
+            
             return $def_url;
         }
 

@@ -32,7 +32,7 @@
 
         array('name' => 'molpay_account', 'type' => 'text', 'value' => ''),
         array('name' => 'molpay_key', 'type' => 'text', 'value' => ''),
-        array('name' => 'molpay_currency', 'type' => 'select', 'value' => 'MYR')
+        array('name' => 'molpay_currency', 'type' => 'select', 'value' => 'MYR','SGD','USD','VND','IDR','PHP')
         );
         return;
     }

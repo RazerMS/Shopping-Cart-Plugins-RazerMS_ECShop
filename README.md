@@ -1,11 +1,10 @@
 
-<img src="https://user-images.githubusercontent.com/38641542/39344583-da87c94e-4a15-11e8-9ad4-b2b52165cfe0.jpg">
-
 
 ECShop_Plugin
 =============
+![ecshop](https://user-images.githubusercontent.com/38641542/74416402-0da63c00-4e80-11ea-811c-5e8edde4c237.jpg)
 
-MOLPay Plugin for ECShop Shopping Cart develop by MOLPay technical team.
+Razer Merchant Services Plugin for ECShop Shopping Cart develop by MOLPay technical team.
 
 
 Supported version
@@ -19,7 +18,7 @@ Notes
 
 MOLPay Sdn. Bhd. is not responsible for any problems that might arise from the use of this module. 
 Use at your own risk. Please backup any critical data before proceeding. For any query or 
-assistance, please email support@molpay.com
+assistance, please email support-sa@razer.com
 
 
 Installations
@@ -58,10 +57,10 @@ Submit issue to this repository or email to our support@molpay.com
 Support
 -------
 
-Merchant Technical Support / Customer Care : support@molpay.com <br>
-Sales/Reseller Enquiry : sales@molpay.com <br>
-Marketing Campaign : marketing@molpay.com <br>
-Channel/Partner Enquiry : channel@molpay.com <br>
-Media Contact : media@molpay.com <br>
-R&D and Tech-related Suggestion : technical@molpay.com <br>
-Abuse Reporting : abuse@molpay.com
+Merchant Technical Support / Customer Care : support-sa@razer.com <br>
+Sales/Reseller Enquiry : sales-sa@razer.com <br>
+Marketing Campaign : marketing-sa@razer.com <br>
+Channel/Partner Enquiry : channel-sa@razer.com <br>
+Media Contact : media-sa@razer.com <br>
+R&D and Tech-related Suggestion : technical-sa@razer.com <br>
+Abuse Reporting : abuse-sa@razer.com 
